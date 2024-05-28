@@ -6,12 +6,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 public class Demo_Shop {
+    public static   String url="https://demowebshop.tricentis.com/search?q=desktop";
+
 
     public static void main(String[] args) throws InterruptedException {
 
+
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://demowebshop.tricentis.com/search?q=desktop");
+        driver.get(url);
 
         driver.manage().window().maximize();
 

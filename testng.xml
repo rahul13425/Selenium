@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+<!--    //Thread count peanding-->
+    <test verbose="2" preserve-order="true" name="C:/Users/RAHUL/IdeaProjects/selenium">
+        <parameter name="browserName" value="Edge"></parameter>
+      <classes>
+          <class name="Register_TestNG">
+              <methods>
+                  <include name="RegisterFunctionalityWithvalidCrredential"></include>
+
+              </methods>
+
+          </class>
+          
+      </classes>
+        
+    </test>
+</suite>
